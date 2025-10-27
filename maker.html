@@ -5,6 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>اٍضافة</title>
   <style>
+
+    /* تعديل المارجن العام للجوال */
+@media (max-width: 768px) {
+    body {
+        margin: 10px; /* بدل 30px */
+    }
+
+    .hero-img {
+        width: 60%; /* تكبر شوي على الجوال */
+        max-width: 150px;
+    }
+
+    .content {
+        width: 95%; /* يترك مساحة صغيرة للجوال */
+        font-size: 1em;
+    }
+
+    .section-btn {
+        width: 90%; /* أكبر شوي */
+        font-size: 18px; /* يناسب حجم الجوال */
+        padding: 12px 0;
+    }
+}
+    
     /* ===== الهيدر ===== */
     header {
       background: linear-gradient(90deg, #2b68ad, #ae00ff);
@@ -195,4 +219,5 @@
 </script>
 
 </body>
+
 </html>
